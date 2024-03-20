@@ -95,11 +95,5 @@ body:
 ### Mentor(s)
 [@Mentor1] [@Mentor2] [@Mentor3]
 
-### Complexity
-Pick one of [High]/[Medium]/[Low]
-
-### Category
-Pick one or more of [UX], [User Experience], [User Interviews], [Mock Design], [Wireframes]
-
 ### Sub Category
 Pick one or more of [UX Design]
