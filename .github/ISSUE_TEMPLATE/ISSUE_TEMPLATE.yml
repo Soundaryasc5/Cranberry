@@ -19,10 +19,15 @@ body:
       required: true
     attributes:
       label: Goals & Mid-Point Milestone
-      description: "Berry Wiki is a women’s health wiki with information in the form of audio, video, and text designed for the women of today. 
-      At Cranberry, we believe there is a big gap between what women seek and the information available online. More importantly, we see that the information available online needs to be contextualized to India. We have a team of researchers who create and contextualize information to train our chatbot, Berry. We intend to make this information open source. Berry Wiki will provide women’s health, specifically preventive health-related information in a simple, easy-to-understand, intuitive-to-navigate way. 
-      The scope of the project is ONLY UX and not the tech backend. We currently use wix.com for hosting our side, happy to use another provider. One of the sites that comes closest to our vision is https://helloclue.com/articles
-      But we believe it is not designed for how a user might want to navigate information especially when they are seeking answers for a specific question like “Is my period late?”, “Do I have heavy bleeding?”"
+      description: 
+Berry Wiki is a women’s health wiki with information in the form of audio, video, and text designed for the women of today. 
+
+At Cranberry, we believe there is a big gap between what women seek and the information available online. More importantly, we see that the information available online needs to be contextualized to India. We have a team of researchers who create and contextualize information to train our chatbot, Berry. We intend to make this information open source. 
+
+Berry Wiki will provide women’s health, specifically preventive health-related information in a simple, easy-to-understand, intuitive-to-navigate way. 
+
+The scope of the project is ONLY UX and not the tech backend. We currently use wix.com for hosting our side, happy to use another provider. One of the sites that comes closest to our vision is https://helloclue.com/articles
+But we believe it is not designed for how a user might want to navigate information especially when they are seeking answers for a specific question like “Is my period late?”, “Do I have heavy bleeding?”
 
       value: |
         ## Goals
