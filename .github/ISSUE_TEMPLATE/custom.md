@@ -1,15 +1,19 @@
--name: Cranberry - DMP 2024 Project
--**description:** Cranberry project for Dedicated Mentoring Program (DMP) 2024 
--title: "[DMP 2024]: "
--labels: ["DMP 2024"]
--body:
--type: textarea
--id: ticket-description
--validations:
--required: true
--attributes:
--label: Ticket Contents
--value: |
+name: Cranberry - DMP 2024 Project
+
+**description:** Cranberry project for Dedicated Mentoring Program (DMP) 2024 
+
+title: "[DMP 2024]: "
+
+labels: ["DMP 2024"]
+
+body:
+type: textarea
+id: ticket-description
+validations:
+required: true
+attributes:
+label: Ticket Contents
+value: |
         
 ## Description
 
