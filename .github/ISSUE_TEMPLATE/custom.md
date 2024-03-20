@@ -11,151 +11,95 @@ body:
       label: Ticket Contents
       value: |
         ## Description
-        [Berry Wiki Women’s Health (A UX Project)]
+        [Provide a brief description of the feature, including why it is needed and what it will accomplish. You can skip any of Goals, Expected Outcome, Implementation Details, Mockups / Wireframes if they are irrelevant. Please note that this section of the ticket is suggestive & you can structure it as per your prerogative.]
 
-  - type: textarea
-    id: ticket-goals
-    validations:
-      required: true
-    attributes:
-      label: Goals & Mid-Point Milestone
-      description: Berry Wiki is a women’s health wiki with information in the form of audio, video, and text designed for the women of today. 
-      At Cranberry, we believe there is a big gap between what women seek and the information available online. More importantly, we see that the information available online needs to be contextualized to India. We have a team of researchers who create and contextualize information to train our chatbot, Berry. We intend to make this information open source. Berry Wiki will provide women’s health, specifically preventive health-related information in a simple, easy-to-understand, intuitive-to-navigate way. 
-      The scope of the project is ONLY UX and not the tech backend. We currently use wix.com for hosting our side, happy to use another provider. One of the sites that comes closest to our vision is https://helloclue.com/articles
-      But we believe it is not designed for how a user might want to navigate information especially when they are seeking answers for a specific question like “Is my period late?”, “Do I have heavy bleeding?”
+## Goals
+- [ ] [Goal 1]
+- [ ] [Goal 2]
+- [ ] [Goal 3]
+- [ ] [Goal 4]
+- [ ] [Goal 5]
 
-      value: |
-        ## Goals
-        - [ ] Set up the design objective & user persona
-        - [ ] Conduct user interviews to generate insights on online content consumption
-        - [ ] Create at least 3 mock design mocks to test assumptions
-        - [ ] Conduct User Testing on the mocks
-        - [ ] Define the elements/blocks of Berry WIki
+## Expected Outcome
+[Describe in detail what the final product or result should look like and how it should behave.]
 
-  - type: textarea
-    id: ticket-setup
-    attributes:
-      label: Setup/Installation 
-      description: You can check out our current Information protocols Here, Here & Here - which give a sense of the information we want to put out there.
+## Acceptance Criteria
+- [ ] [Criteria 1]
+- [ ] [Criteria 2]
+- [ ] [Criteria 3]
+- [ ] [Criteria 4]
+- [ ] [Criteria 5]
 
-  - type: textarea
-    id: ticket-expected-outcome
-    attributes:
-      label: Expected Outcome
-      description: A website hosted on https://www.cranberry.fit/. The website is primarily structured with a content-first approach (maybe video first?)  Women can navigate through the site easily and find answers to their questions. The scope looks design of the structure of information, navigation, icons/design choices required to create a good reading/learning experience, and colours (optional)
-      Note: We looked into the current wiki structures of GitBooks, MediaWiki, and other similar sites. They are optimized for navigation for an engineer-first person and tech documentation. For health documentation, we find good examples in Healthline, we need to create an Indian version of the same. 
+## Implementation Details
+[List any technical details about the proposed implementation, including any specific technologies that will be used.]
+
+## Mockups / Wireframes
+[Include links to any visual aids, mockups, wireframes, or diagrams that help illustrate what the final product should look like. This is not always necessary, but can be very helpful in many cases.]
+
+---
+[Please note that the below section of the ticket ****has to be in the format as mentioned as it is key to enabling proper listing of the project.**** Please only choose the options mentioned under the headings wherever applicable.]
+
+### Product Name
+[Product Name: For eg: Beckn, Sunbird Obsrv etc]
 
 
-  - type: textarea
-    id: ticket-acceptance-criteria
-    attributes:
-      label: Acceptance Criteria
-      description: Specific criteria to be created in collaboration with the mentors as user interviews will throw more light into what women are exactly looking for when seeking information. The quick summary is here
-                    - Women can navigate with ease through the landing page
-                    - Women can find answers to the questions they are looking for
-                    - Women can share information if required
+### Project Name
+[Project Name: Descriptive of the ticket]
 
 
-  - type: textarea
-    id: ticket-implementation-details
-    validations:
-      required: true
-    attributes:
-      label: Implementation Details
-      description: NA.
+### Organization Name:
+[Organization Name]
 
-  - type: textarea
-    id: ticket-mockups
-    attributes:
-      label: Mockups/Wireframes
-      description: Include links to any visual aids, mockups, wireframes, or diagrams that help illustrate what To be created as a part of the project. Relevant sites are added above.
+### Domain
+[Area of governance]
 
-  - type: input
-    id: ticket-product
-    attributes:
-      label: Product Name
-      placeholder: Berry Wiki
-    validations:
-      required: true
+<!-- Choose area of governance from the following list
 
-  - type: dropdown
-    id: ticket-organisation
-    attributes:
-      label: Organisation Name
-      description: Empower Digital Health / Cranberry
-      multiple: false
-      options:
-        - Bandhu
-        - Blockster Global (CREDBEL)
-        - Civis
-        - Dhwani
-        - Dhiway
-        - EGov
-        - EkShop Marketplace
-        - FIDE
-        - If Me
-        - Key Education Foundation
-        - Norwegian Meteorological Institute
-        - Planet Read
-        - Project Second Chance
-        - Reap Benefit
-        - SamagraX
-        - ShikshaLokam
-        - Tech4Dev
-        - Tekdi
-        - The Mifos Initiative
-        - Tibil
-        - Ushahidi
-        - Arghyam
-        - Piramal Swasthya Management Research Institute
-    validations:
-      required: true
+| #  | Area of governance                          |
+|----|--------------------------------------------|
+| 1  | Education                                  |
+| 2  | Healthcare                                 |
+| 3  | Public Administration                      |
+| 4  | Justice and Law Enforcement                |
+| 5  | Taxation and Revenue Management            |
+| 6  | Urban Planning and Infrastructure          |
+| 7  | Environmental Governance                   |
+| 8  | Social Welfare                             |
+| 9  | E-Governance                               |
+| 10 | Financial Governance                       |
+| 11 | Electoral Systems                          |
+| 12 | Defense and Security                       |
+| 13 | Ethics and Anti-Corruption                 |
+| 14 | Transportation                             |
+| 15 | Energy and Utilities                       |
+| 16 | Agriculture and Rural Development          |
+| 17 | Trade and Commerce                         |
+| 18 | Science and Technology                     |
+| 19 | Labor and Employment                       |
+| 20 | Culture and Tourism                        |
+| 21 | Communications and Media                   |
+| 22 | Disaster Management and Emergency Services |
+| 23 | Indigenous Governance                      |
+| 24 | Sports and Recreation                      |
+| 25 | Water Resource Management                  |
+| 26 | Housing and Urban Development              |
+| 27 | Immigration and Border Control             |
+| 28 | Land Management and Real Estate            |
+| 29 | Regulatory Agencies and Compliance         |
+| 30 | Others                                     |
+-->
 
-  - type: dropdown
-    id: ticket-governance-domain
-    attributes:
-      label: Domain
-      options:
-        - ⁠HealthTech 
-        - Media
-    validations:
-      required: true
+### Tech Skills Needed:
+[Required technical skills for the project]
 
+### Mentor(s)
+[@Mentor1] [@Mentor2] [@Mentor3]
 
-  - type: dropdown
-    id: ticket-technical-skills-required
-    attributes:
-      label: Tech Skills Needed
-      description: Select the technologies needed for this ticket (use Ctrl or Command to select multiple)
-      multiple: true
-      options:
-        - UX
-        - User Experience
-        - User Interviews
-        - Mock Design
-        - Wireframes
-    validations:
-      required: true
+### Complexity
+Pick one of [High]/[Medium]/[Low]
 
-  - type: textarea
-    id: ticket-mentors
-    attributes:
-      label: Mentor(s)
-      description: Saraswati, Aditi, Treemouse
-    validations:
-      required: true
+### Category
+Pick one or more of [UX], [User Experience], [User Interviews], [Mock Design], [Wireframes]
 
-  - type: dropdown
-    id: ticket-category
-    attributes: 
-      label: Category
-      description: Choose the categories that best describe your ticket
-      multiple: true
-      options:
-        - UX Design
-    validations:
-      required: true
-
-  
-
-
+### Sub Category
+Pick one or more of [UX Design]
