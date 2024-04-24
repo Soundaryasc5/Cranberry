@@ -3,22 +3,13 @@ description: List a new design project for Dedicated Mentoring Program 2024
 title: "[DMP 2024,Product Usability]: "
 labels: ["DMP 2024,Product Usability"]
 body:
+
   - type: textarea
-    id: ticket-description
+    id: Ticket Contents
     validations:
       required: true
     attributes:
       label: Ticket Contents
-      value: |
-        ## Description
-        [Provide a brief description of the problem statement here. Include any relevant context or background information (user research findings, list of user personas / target users affected, etc.,.)]
-
-  - type: textarea
-    id: ticket-goals
-    validations:
-      required: true
-    attributes:
-      label: Goals & Mid-Point Milestone
       Description: |
       Berry Wiki is a women’s health wiki with information in the form of audio, video, and text designed for the women of today. 
 
@@ -29,6 +20,64 @@ Berry Wiki will provide women’s health, specifically preventive health-related
 The scope of the project is ONLY UX and not the tech backend. We currently use wix.com for hosting our side, happy to use another provider. One of the sites that comes closest to our vision is https://helloclue.com/articles
 But we believe it is not designed for how a user might want to navigate information especially when they are seeking answers for a specific question like “Is my period late?”, “Do I have heavy bleeding?”
       value: |
+
+  - type: textarea
+    id: ticket-Key design-research questions
+    validations:
+      required: true
+    attributes:
+      label: Key design-research questions
+      Description: 
+        1. How do women consume health content?
+          a. Medium?
+          b. Depth of science required
+          c. Format of information consumption
+        2. What’s the best way to communicate health content?
+          a. Navigation and layout on a web-page
+          b. How to interconnect audio, video, text content?
+          c. How to make easy to navigate through questions
+          d. How to make it easy to engage with the content
+        3. Impact on social media short form content vs long form content for getting answers to health questions
+
+  - type: textarea
+    id: ticket-Current State
+    validations:
+      required: true
+    attributes: 
+      label: Current State
+      description: Women’s Health content often feels confusing and backed by anecdotes than science.
+Growing up, we were told to bear the pain or follow “nuskas” or random remedies. “Don't take painkillers for periods” “Eat x for y.” No reason was given for why we felt something. No explanation of how or why it will help.
+Today, it is impossible to judge what the truth is among the clutter of information. Differentiate the facts from the noise. “It is your hormones” “Pamper your PMS with some cake” “Seed Cycling will balance it all”
+How are we changing this?
+By bringing only data-backed science in a transparent way to you.
+Let’s start now! Here’s what we mean by “data-backed science”
+Science for which the evidence comes from published clinical trials or data studies. E.g. “5 Trials show ginger helps with period pain” or “Multiple studies inconclusive on hormones impact on workouts”
+Women’s health has fewer clinical trials. So we also factor in science that comes from published papers that study the why and how in a lab setting. E.g. “The cause of PMS is not the level of hormones, but the individual sensitivity”
+What do we mean by “in a transparent way”?
+Video content that is easy and fun. But hey, it is 5-15 minutes long. As we want to demystify women’s health. And we know so do you.
+We always share the limitations of the current scientific understanding. E.g. “Women’s health has fewer clinical trials” or “The cause of PMS is unknown” (crazy but true!)
+We always share our sources.
+
+  - type: textarea
+    id: ticket-Desired State
+    validations:
+      required: true
+    attributes: 
+      label: Desired State
+      description: 
+              Goal 1 - To become a go to source for evidence backed women’s health information, in Indian context
+              Goal 2 - To be part of our community – 
+              All content is based on data-backed science. And delivered by Coaches, Nutritionists, Gynaecologists, and Health Scientists who are women like you wanting answers. Sometimes, men too :).
+              What do we mean by Women's Health?
+              Much more than fertility! Things we deal with continuously - Periods, PMS mood & energy changes, Hormonal Migraines, Vaginal stuff, Breast Tenderness. And then some things that happen to women much more than men – Pain during sex, Bloating, Lower back Pain, Knee Pain, Sleep Disturbances.
+  
+- type: textarea
+    id: ticket-Goals & Mid-Point Milestone
+    validations:
+      required: true
+    attributes: 
+      label: Goals & Mid-Point Milestone
+      value: |
         ## Goals
         - [ ] Set up the design objective & user persona
         - [ ] Conduct user interviews to generate insights on online content consumption
@@ -36,42 +85,25 @@ But we believe it is not designed for how a user might want to navigate informat
         - [ ] Conduct User Testing on the mocks
         - [ ] Define the elements/blocks of Berry WIki
 
-  - type: textarea
-    id: ticket-setup
-    attributes:
-      label: Setup/Installation 
-      description: You can check out our current Information protocols at https://cranberryfit.notion.site/Dysmenorrhea-OR-Period-Pain-b4670a2074b0469296a2df1fc6715ed8?pvs=4, https://www.youtube.com/@cranberryforher & https://drive.google.com/drive/folders/1FBNr0eB1-HNNN58nq0WTzQwYRYE9PiLw?usp=drive_link - which give a sense of the information we want to put out there.
-
-  - type: textarea
-    id: ticket-expected-outcome
-    attributes:
-      label: Expected Outcome
-      description: A website hosted on https://www.cranberry.fit/. The website is primarily structured with a content-first approach (maybe video first?)  Women can navigate through the site easily and find answers to their questions. The scope looks design of the structure of information, navigation, icons/design choices required to create a good reading/learning experience, and colours (optional)
-      Note: We looked into the current wiki structures of GitBooks, MediaWiki, and other similar sites. They are optimized for navigation for an engineer-first person and tech documentation. For health documentation, we find good examples in Healthline, we need to create an Indian version of the same. 
-
-
-  - type: textarea
-    id: ticket-acceptance-criteria
-    attributes:
-      label: Acceptance Criteria
-      description: Specific criteria to be created in collaboration with the mentors as user interviews will throw more light into what women are exactly looking for when seeking information. The quick summary is here
-                    - Women can navigate with ease through the landing page
-                    - Women can find answers to the questions they are looking for
-                    - Women can share information if required
-
-
-  - type: textarea
-    id: ticket-implementation-details
+- type: textarea
+    id: ticket-Acceptance Criteria
     validations:
       required: true
-    attributes:
-      label: Implementation Details
-      description: NA.
+    attributes: 
+      label: Acceptance Criteria
+      description: 
+            1. A Web UI for navigation and presentation of Berry Wiki - with video, audio, text content
+            2. A clear guideline for content communication which enables the following
+                a. Women can navigate with ease through the landing page
+                b. Women can find answers to the questions they are looking for
+                c. Women can share information if required
+                d. Women can engage with the content, ask questions, get answers
 
-  - type: textarea
+
+- type: textarea
     id: ticket-mockups
     attributes:
-      label: Mockups/Wireframes
+      label: Existing Mockups/Wireframes
       description: Include links to any visual aids, mockups, wireframes, or diagrams that help illustrate what To be created as a part of the project. Relevant sites are added above.
 
   - type: input
@@ -86,32 +118,10 @@ But we believe it is not designed for how a user might want to navigate informat
     id: ticket-organisation
     attributes:
       label: Organisation Name
-      description: Empower Digital Health / Cranberry
+      description: Cranberry
       multiple: false
       options:
-        - Bandhu
-        - Blockster Global (CREDBEL)
-        - Civis
-        - Dhwani
-        - Dhiway
-        - EGov
-        - EkShop Marketplace
-        - FIDE
-        - If Me
-        - Key Education Foundation
-        - Norwegian Meteorological Institute
-        - Planet Read
-        - Project Second Chance
-        - Reap Benefit
-        - SamagraX
-        - ShikshaLokam
-        - Tech4Dev
-        - Tekdi
-        - The Mifos Initiative
-        - Tibil
-        - Ushahidi
-        - Arghyam
-        - Piramal Swasthya Management Research Institute
+        - Cranberry
     validations:
       required: true
 
@@ -120,8 +130,7 @@ But we believe it is not designed for how a user might want to navigate informat
     attributes:
       label: Domain
       options:
-        - ⁠HealthTech 
-        - Media
+        - ⁠FemTech
     validations:
       required: true
 
@@ -133,11 +142,13 @@ But we believe it is not designed for how a user might want to navigate informat
       description: Select the technologies needed for this ticket (use Ctrl or Command to select multiple)
       multiple: true
       options:
-        - UX
-        - User Experience
-        - User Interviews
-        - Mock Design
-        - Wireframes
+        - Ticket Contents
+        - Key design-research questions
+        - Current State
+        - Desired State
+        - Goals & Mid-Point Milestone
+        - Acceptance Criteria
+        - Existing Mockups/Wireframes
     validations:
       required: true
 
@@ -146,17 +157,6 @@ But we believe it is not designed for how a user might want to navigate informat
     attributes:
       label: Mentor(s)
       description: Saraswati, Aditi, Treemouse
-    validations:
-      required: true
-
-  - type: dropdown
-    id: ticket-category
-    attributes: 
-      label: Category
-      description: Choose the categories that best describe your ticket
-      multiple: true
-      options:
-        - UX Design
     validations:
       required: true
 
